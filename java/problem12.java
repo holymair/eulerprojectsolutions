@@ -32,8 +32,8 @@ public class Projecteuler {
 				maxDiv = 0;								
 			}			
 			number++;
-			System.out.println(sum);
-			System.out.println(divisors);
-		}		
+			
+		}
+		System.out.println(sum);
 	}
 }
