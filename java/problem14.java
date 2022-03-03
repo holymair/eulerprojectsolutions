@@ -1,5 +1,5 @@
 public class Projecteuler {
-
+	
 	static long length = 0;
 
 	static long chainLength(long number) {
@@ -14,7 +14,6 @@ public class Projecteuler {
 			length++;
 			return (number * 3) + 1;
 		}
-
 	}
 
 	public static void main(String[] args) {
@@ -33,3 +32,5 @@ public class Projecteuler {
 			Projecteuler.length = 0;
 		}
 		System.out.println(maxNumber);
+	}
+}
